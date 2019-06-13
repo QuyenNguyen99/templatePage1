@@ -1,0 +1,35 @@
+<div class="edit-header">
+  Create Quản lý danh mục tin tức
+  <hr>
+</div>
+<div class="edit-main">
+  <div class="edit-main-1">
+    <p>Title</p>
+    <input type="text" [(ngModel)]="newTieude" />
+  </div>
+  <div class="edit-main-1">
+    <p>Parent</p>
+    <input type="text" [(ngModel)]="newParent" />
+  </div>
+  <div class="edit-main-1">
+    <p>Menu chính</p>
+    <input type="text" [(ngModel)]="menuchinh">
+  </div>
+  <div class="edit-main-1">
+    <p>Trạng thái</p>
+    <input type="text" [(ngModel)]="trangthai">
+  </div>
+  <div class="check-2">
+    <p>Hiện tin tức trang chủ?</p>
+    <div class="checkboxTwo">
+      <input type="checkbox" value="1" id="checkboxTwoInput" name="" />
+      <label for="checkboxTwoInput"></label>
+    </div>
+  </div>
+  <div class="button-add">
+    <button type="button" class="btn btn-success" (click)="add();">
+      <a rounterLink="/contacts">Add</a>
+    </button>
+    <button type="button" class="btn btn-danger" (click)="cancel();">Back</button>
+  </div>
+</div>

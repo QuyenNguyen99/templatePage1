@@ -1,0 +1,54 @@
+<div class="contacts-header">
+    Quản lý tin tức
+    <hr>
+  </div>
+  <button type="button" class="btn btn-info"><a routerLink="#">Add</a></button>
+  <div class="">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"> Check </th>
+          <th scope="col">ID</th>
+          <th scope="col">Image</th>
+          <th scope="col">Categories</th>
+          <th scope="col">Name</th>
+          <th scope="col">Status</th>
+          <th scope="col">Created Time</th>
+          <th scope="col">Select</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label>
+              <input type="checkbox" name="" value="">
+            </label>
+          </td>
+          <!-- <td>{{arr.id}}</td>
+          <td>{{arr.tieude}}</td>
+          <td>{{arr.parent}}</td>
+          <td>{{arr.menuchinh}}</td>
+          <td>{{arr.trangthai}}</td> -->
+          <td>1</td>
+          <td>image</td>  
+          <td>Tin tức</td>
+          <td> Vinhomes Central Park</td>
+          <td>true</td>
+          <td>30-05-2019 09:35 AMs</td>
+          <button type="button" class="btn btn-success">
+              <a routerLink="/news/news-edit"><i class="far fa-edit"></i></a>
+          </button>
+          <button type="button" class="btn btn-danger" (click)="removeContact(arr.id)"><i class="far fa-trash-alt"></i></button>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div *ngIf="an_hien" class="display">
+  
+    <p class="a">Delete all</p>
+    <hr>
+    <p>Do you want to delete this record?</p>
+    <button type="button" class="btn btn-light" (click)="cancelContact()">Cancel</button>
+    <button type="button" class="btn btn-danger" (click)="removeContacts()">Delete</button>
+  </div>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">

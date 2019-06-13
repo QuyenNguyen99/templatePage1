@@ -1,0 +1,73 @@
+<div class="edit-header">
+  Update Quản lý danh mục tin tức
+  <hr>
+</div>
+<div class="edit-main">
+  <div class="edit-main-pid">
+    <p>Pid</p>
+
+    <select multiple=".edit-main-3">
+      <option>-- Parent --</option>
+      <option>Dân dụng</option>
+      <option>Văn phòng</option>
+      <option>Dự án</option>
+      <option>Tin tức</option>
+      <option>Liên hệ</option>
+      <option>Tải về</option>
+      <option>Về chúng tôi</option>
+      <option>Sản phẩm</option>
+      <option>Dự án</option>
+      <option>Tuyển dụng</option>
+    </select>
+
+  </div>
+  <div class="edit-main-1">
+    <p>Name *</p>
+    <input type="text" [(ngModel)]="tieude" name="tieude" />
+  </div>
+  <div class="edit-main-1">
+    <p>Parent</p>
+    <input type="text" [(ngModel)]="parent" name="parent" />
+  </div>
+  <div class="edit-main-2">
+    <p>Show type</p>
+    <select>
+      <option value="">-- Show type --</option>
+      <option value="">Category list masonry</option>
+      <option value="">Contact</option>
+      <option value="">Category list 2</option>
+      <option value="">Category list pdf</option>
+      <option value="">About</option>
+    </select>
+  </div>
+  <div class="edit-main-3">
+    <p>Background</p>
+    <input type="text">
+    <button type="button" class="btn btn-primary">Browse</button>
+    <button type="button" class="btn btn-primary">AddLink</button>
+    <button type="button" class="btn btn-primary">Thư viện ảnh</button>
+  </div>
+  <div class="check">
+    <p>Status</p>
+    <div class="checkboxTwo">
+      <input type="checkbox" value="1" id="checkboxTwoInput" name="" />
+      <label for="checkboxTwoInput"></label>
+    </div>
+  </div>
+
+
+  <div class="edit-main-1">
+    <p>Menu chính</p>
+    <input type="text" [(ngModel)]="menuchinh" name="menuchinh" />
+  </div>
+
+  <div class="edit-main-1">
+    <p>Meta keyword</p>
+    <input type="text" [(ngModel)]="trangthai" name="trangthai" />
+  </div>
+
+  <div class="button-save">
+    <button type="button" class="btn btn-success" (click)="edit();">Save</button>
+    <button type="button" class="btn btn-danger" (click)="cancel();">Back</button>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.template-header{
+    display: flex;
+    background-color: #438eb9;
+    padding-top: 10px;
+}
+
+.teamplate-main{
+    display: flex;
+}

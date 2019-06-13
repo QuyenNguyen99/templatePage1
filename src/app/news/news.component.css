@@ -1,0 +1,50 @@
+.contacts-header{
+    padding: 0;
+    margin: 0px 8px 10px 8px;
+    font-size: 24px;
+    color: #2679b5;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 80vw;
+    margin-bottom: 6%;
+}
+
+.btn-info a{
+    color: #FFF;
+}
+
+.btn-info{
+    margin-left: 86%;
+}
+
+.btn-success a{
+    color:#FFF;
+}
+
+.btn-success{
+    margin-right: 2px;
+}
+
+.display{
+    position: fixed;
+    width: 26%;
+    height: 24%;
+    background: #ddd;
+    top: 10px;
+    left: 40%;
+    color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    background: #eee;
+    background: #eee;
+    box-shadow: 5px 5px 5px #666;
+    -moz-box-shadow: 5px 5px 5px #666;
+    -webkit-box-shadow: 5px 5px 5px #666;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+.display .a{
+    font-size: 25px;
+}

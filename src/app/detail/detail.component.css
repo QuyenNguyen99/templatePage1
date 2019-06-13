@@ -1,0 +1,27 @@
+.detail-header{
+    padding: 0;
+    margin: 0px 8px 10px 8px;
+    font-size: 24px;
+    color: #2679b5;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 98vw;   
+}
+
+.detail-title{
+    display: flex;
+    margin: 20px 0;
+}
+
+.detail-title p{
+    margin-left: 30px;
+}
+
+.detail-title input{
+    margin-left: 11%;
+    width: 1200px;
+}
+
+.content .a{
+    width: 100px;
+}

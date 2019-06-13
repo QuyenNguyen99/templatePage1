@@ -1,0 +1,23 @@
+.left-menu{
+    width: 15vw;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.table tr{
+    border-bottom: 1px solid #000;
+    color:#585858;
+    text-decoration: none;
+    list-style: none;
+}
+
+.table tr a{
+    list-style: none;
+    color: #000;
+}
+
+.table tr:hover{
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 500ms;
+}

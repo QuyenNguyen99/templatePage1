@@ -1,0 +1,128 @@
+.edit-header{
+    padding: 0;
+    margin: 0px 8px 10px 8px;
+    font-size: 24px;
+    color: #2679b5;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 80vw;
+    margin-bottom: 4rem;
+}
+
+.edit-main-1{
+    display: flex;
+    margin: 10px 0;
+}
+
+.edit-main-1 p{
+    display: flex;
+    flex-grow: 1;
+    margin-left:20px;
+}
+
+.edit-main-1 input{
+    width: 1310px;
+    height: 25px;
+}
+
+.edit-main-2{
+    display: flex;
+    margin: 10px 0;
+}
+
+.btn .btn-success{
+    text-align: center;
+}
+/*------------------------------------------*/
+.checkboxTwo {
+    width: 80px;
+    height: 30px;
+    background: #468fcc;
+    margin: 20px 60px;
+    border-radius: 50px;
+    position: relative;
+}
+.checkboxTwo:before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    height: 2px;
+    width: 65px;
+    background: #ddd;
+}   
+.checkboxTwo label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+ 
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+    left: 3px;
+    background: #ddd;
+}
+.checkboxTwo input[type=checkbox]:checked + label {
+    left: 55px;
+    background: #26ca28;
+}
+
+.check{
+    display: flex;
+}
+
+.check p{
+    margin-left: 2%;
+}
+
+.check .checkboxTwo{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+
+.check-1{
+    display: flex;
+}
+
+.check-1 p{
+    margin-left: 20px;
+}
+
+.check-1 .checkboxTwo{
+    margin-left: 101px;
+    margin-top: 5px;
+}
+
+.check-2{
+    display: flex;
+}
+
+.check-2 p{
+    margin-left: 20px;
+}
+
+.check-2 .checkboxTwo{
+    margin-left: 85px;
+    margin-top: 5px;
+}
+
+
+.button-add{
+    margin-left: 50%;
+}
+
+.btn-success{
+    margin-right: 3px;
+}
+
+.button-add{
+    display: flex;
+}
